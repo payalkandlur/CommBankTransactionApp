@@ -16,8 +16,13 @@ This project includes the following.
 - Tapping on an ATM withdrawal row will show the location of the ATM on a map.
 - Location details on the annotation.
 - Dark Mode support.
+- iPad support.
 
 Here's a demo of the app.
 
-https://github.com/payalkandlur/CommBankTransactionApp/assets/36960626/d8f96fb4-f2cf-427b-9afc-f1adce907e0f
+https://github.com/payalkandlur/CommBankTransactionApp/assets/36960626/109119ea-03ab-4fa6-9438-a479944c9d62
+
+
+
+https://github.com/payalkandlur/CommBankTransactionApp/assets/36960626/34cf4b7d-8b27-48b0-81b2-9fe38ce0dddb
 
