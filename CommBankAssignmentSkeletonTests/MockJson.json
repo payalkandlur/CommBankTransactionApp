@@ -1,0 +1,61 @@
+{
+    "account" : {
+        "accountName": "Sample",
+        "accountNumber": "123456 1234 1234",
+        "available": 226.76,
+        "balance": 246.76
+    },
+    "transactions": [{
+        "id": "44e5b2bc484331ea24afd85ecfb212c8",
+        "effectiveDate": "20/12/2015",
+        "description": "Kaching TFR from JOHN CITIZEN<br/>xmas donation",
+        "amount": 12.00
+    }, {
+        "id": "1506aeeb8c3a699b1e3c87db03156428",
+        "effectiveDate": "20/12/2015",
+        "description": "Wdl ATM CBA ATM CIRCULAR QUAY STATION NSW 221092 AUS",
+        "amount": -200.00,
+        "atmId": "129382"
+    }, {
+        "id": "9a899bfd978511e9605774e1d5222b67",
+        "description": "Savings",
+        "effectiveDate": "19/12/2015",
+        "amount": 10.00
+    }, {
+        "id": "1a6c48627cecaa2388b702fa33d751ff",
+        "description": "PTAG COCA COLA AMATI",
+        "effectiveDate": "12/12/2015",
+        "amount": -2.20
+    }],
+    "pending" : [{
+        "id": "e2eff6c2dafd909df8508f891b385d88",
+        "description": "WILSON PARKING SYDOBS SYDNEY NS AUS<br/>LAST 4 CARD DIGITS: 6901",
+        "effectiveDate": "22/11/2015",
+        "amount": -12.00
+    },{
+        "id": "901889f4f34f8ca18ac2f53d1fed346e",
+        "description": "CITYOFSYDNEYPARKINGTX SYDNEY, 1215<br/>LAST 4 CARD DIGITS: 6901",
+        "effectiveDate": "17/11/2015",
+        "amount": -8.00
+    }],
+    "atms": [
+        {
+            "id": "129382",
+            "name": "Circular Quay Station",
+            "address": "8 Alfred St, Sydney, NSW 2000",
+            "location": {
+                "lat": -33.861382,
+                "lng": 151.210316
+            }
+        },
+        {
+            "id": "137483",
+            "name": "Town Hall Square",
+            "address": "464-480 Kent St, Sydney, NSW 2000",
+            "location": {
+                "lat": -33.873181,
+                "lng": 151.205389
+            }
+        }
+    ]
+}

@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1909F8C52B6B9D1200CDC612 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1909F8C42B6B9D1200CDC612 /* MapViewController.swift */; };
+		1909F8CB2B6B9DCB00CDC612 /* AccountDetailsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1909F8CA2B6B9DCB00CDC612 /* AccountDetailsViewModelTests.swift */; };
+		1909F8CF2B6BA6D500CDC612 /* AccessibilityIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1909F8CE2B6BA6D500CDC612 /* AccessibilityIdentifiers.swift */; };
+		1909F8D12B6BA76400CDC612 /* DateDetailsHeaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1909F8D02B6BA76400CDC612 /* DateDetailsHeaderUITests.swift */; };
+		197F89DB2B6BF80300ACD3B1 /* CBATransactionsControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197F89DA2B6BF80300ACD3B1 /* CBATransactionsControllerUITests.swift */; };
+		197F89DD2B6BFED200ACD3B1 /* TransactionViewCellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197F89DC2B6BFED200ACD3B1 /* TransactionViewCellUITests.swift */; };
+		197F89DE2B6C16FC00ACD3B1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8C4C55287435600056D371 /* Constants.swift */; };
+		197F89DF2B6C16FC00ACD3B1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8C4C55287435600056D371 /* Constants.swift */; };
+		197F89E02B6C16FE00ACD3B1 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8C4C5D2874408B0056D371 /* Fonts.swift */; };
+		197F89E12B6C16FF00ACD3B1 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8C4C5D2874408B0056D371 /* Fonts.swift */; };
+		197F89E22B6C170100ACD3B1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DEB02A2B6A5E6200404209 /* Extensions.swift */; };
+		197F89E32B6C170100ACD3B1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DEB02A2B6A5E6200404209 /* Extensions.swift */; };
+		197F89E42B6C170300ACD3B1 /* AccessibilityIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1909F8CE2B6BA6D500CDC612 /* AccessibilityIdentifiers.swift */; };
+		197F89E52B6C170400ACD3B1 /* AccessibilityIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1909F8CE2B6BA6D500CDC612 /* AccessibilityIdentifiers.swift */; };
+		197F89E62B6C170600ACD3B1 /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DEB02D2B6A636100404209 /* NetworkLayer.swift */; };
+		197F89E72B6C170600ACD3B1 /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DEB02D2B6A636100404209 /* NetworkLayer.swift */; };
+		197F89E82B6C170800ACD3B1 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8C4C57287435980056D371 /* Account.swift */; };
+		197F89E92B6C170800ACD3B1 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8C4C57287435980056D371 /* Account.swift */; };
+		197F89EA2B6C170D00ACD3B1 /* CBATransactionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8C4C292874350A0056D371 /* CBATransactionController.swift */; };
+		197F89EB2B6C170D00ACD3B1 /* CBATransactionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8C4C292874350A0056D371 /* CBATransactionController.swift */; };
+		197F89EC2B6C170F00ACD3B1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1909F8C42B6B9D1200CDC612 /* MapViewController.swift */; };
+		197F89ED2B6C171000ACD3B1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1909F8C42B6B9D1200CDC612 /* MapViewController.swift */; };
+		197F89EE2B6C171400ACD3B1 /* AccountDetailsTableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8C4C5B28743D5D0056D371 /* AccountDetailsTableHeader.swift */; };
+		197F89EF2B6C171400ACD3B1 /* AccountDetailsTableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8C4C5B28743D5D0056D371 /* AccountDetailsTableHeader.swift */; };
+		197F89F02B6C171600ACD3B1 /* DateDetailsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DEB0342B6AB4F600404209 /* DateDetailsHeader.swift */; };
+		197F89F12B6C171600ACD3B1 /* DateDetailsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DEB0342B6AB4F600404209 /* DateDetailsHeader.swift */; };
+		197F89F22B6C171900ACD3B1 /* TransactionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DEB0322B6A953800404209 /* TransactionViewCell.swift */; };
+		197F89F32B6C171900ACD3B1 /* TransactionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DEB0322B6A953800404209 /* TransactionViewCell.swift */; };
+		197F89F42B6C171D00ACD3B1 /* AccountDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DEB02F2B6A643200404209 /* AccountDetailsViewModel.swift */; };
+		197F89F52B6C171D00ACD3B1 /* AccountDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DEB02F2B6A643200404209 /* AccountDetailsViewModel.swift */; };
+		19DEB02B2B6A5E6200404209 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DEB02A2B6A5E6200404209 /* Extensions.swift */; };
+		19DEB02E2B6A636100404209 /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DEB02D2B6A636100404209 /* NetworkLayer.swift */; };
+		19DEB0302B6A643200404209 /* AccountDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DEB02F2B6A643200404209 /* AccountDetailsViewModel.swift */; };
+		19DEB0332B6A953800404209 /* TransactionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DEB0322B6A953800404209 /* TransactionViewCell.swift */; };
+		19DEB0352B6AB4F600404209 /* DateDetailsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DEB0342B6AB4F600404209 /* DateDetailsHeader.swift */; };
+		CD8C4C262874350A0056D371 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8C4C252874350A0056D371 /* AppDelegate.swift */; };
+		CD8C4C282874350A0056D371 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8C4C272874350A0056D371 /* SceneDelegate.swift */; };
+		CD8C4C2A2874350A0056D371 /* CBATransactionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8C4C292874350A0056D371 /* CBATransactionController.swift */; };
+		CD8C4C2F2874350C0056D371 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD8C4C2E2874350C0056D371 /* Assets.xcassets */; };
+		CD8C4C322874350C0056D371 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8C4C302874350C0056D371 /* LaunchScreen.storyboard */; };
+		CD8C4C3D2874350C0056D371 /* CommBankAssignmentSkeletonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8C4C3C2874350C0056D371 /* CommBankAssignmentSkeletonTests.swift */; };
+		CD8C4C472874350C0056D371 /* CommBankAssignmentSkeletonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8C4C462874350C0056D371 /* CommBankAssignmentSkeletonUITests.swift */; };
+		CD8C4C492874350C0056D371 /* CommBankAssignmentSkeletonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8C4C482874350C0056D371 /* CommBankAssignmentSkeletonUITestsLaunchTests.swift */; };
+		CD8C4C56287435600056D371 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8C4C55287435600056D371 /* Constants.swift */; };
+		CD8C4C58287435980056D371 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8C4C57287435980056D371 /* Account.swift */; };
+		CD8C4C5A287435EB0056D371 /* Sample.json in Resources */ = {isa = PBXBuildFile; fileRef = CD8C4C59287435EB0056D371 /* Sample.json */; };
+		CD8C4C5C28743D5D0056D371 /* AccountDetailsTableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8C4C5B28743D5D0056D371 /* AccountDetailsTableHeader.swift */; };
+		CD8C4C5E2874408B0056D371 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8C4C5D2874408B0056D371 /* Fonts.swift */; };
+		CD8C4C6328744C5E0056D371 /* iOS.Map.png in Resources */ = {isa = PBXBuildFile; fileRef = CD8C4C6028744C5E0056D371 /* iOS.Map.png */; };
+		CD8C4C6428744C5E0056D371 /* iOS.Transactions.png in Resources */ = {isa = PBXBuildFile; fileRef = CD8C4C6128744C5E0056D371 /* iOS.Transactions.png */; };
+		CD8C4C6528744C5E0056D371 /* iOS.Transactions.scrolling.png in Resources */ = {isa = PBXBuildFile; fileRef = CD8C4C6228744C5E0056D371 /* iOS.Transactions.scrolling.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD8C4C392874350C0056D371 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD8C4C1A2874350A0056D371 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD8C4C212874350A0056D371;
+			remoteInfo = CommBankAssignmentSkeleton;
+		};
+		CD8C4C432874350C0056D371 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD8C4C1A2874350A0056D371 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD8C4C212874350A0056D371;
+			remoteInfo = CommBankAssignmentSkeleton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1909F8C42B6B9D1200CDC612 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		1909F8CA2B6B9DCB00CDC612 /* AccountDetailsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailsViewModelTests.swift; sourceTree = "<group>"; };
+		1909F8CE2B6BA6D500CDC612 /* AccessibilityIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityIdentifiers.swift; sourceTree = "<group>"; };
+		1909F8D02B6BA76400CDC612 /* DateDetailsHeaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateDetailsHeaderUITests.swift; sourceTree = "<group>"; };
+		197F89D92B6BF6BD00ACD3B1 /* MockJson.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockJson.json; sourceTree = "<group>"; };
+		197F89DA2B6BF80300ACD3B1 /* CBATransactionsControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBATransactionsControllerUITests.swift; sourceTree = "<group>"; };
+		197F89DC2B6BFED200ACD3B1 /* TransactionViewCellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewCellUITests.swift; sourceTree = "<group>"; };
+		19DEB02A2B6A5E6200404209 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		19DEB02D2B6A636100404209 /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
+		19DEB02F2B6A643200404209 /* AccountDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailsViewModel.swift; sourceTree = "<group>"; };
+		19DEB0322B6A953800404209 /* TransactionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewCell.swift; sourceTree = "<group>"; };
+		19DEB0342B6AB4F600404209 /* DateDetailsHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateDetailsHeader.swift; sourceTree = "<group>"; };
+		CD8C4C222874350A0056D371 /* CommBankAssignmentSkeleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommBankAssignmentSkeleton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8C4C252874350A0056D371 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD8C4C272874350A0056D371 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD8C4C292874350A0056D371 /* CBATransactionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBATransactionController.swift; sourceTree = "<group>"; };
+		CD8C4C2E2874350C0056D371 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD8C4C312874350C0056D371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD8C4C332874350C0056D371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD8C4C382874350C0056D371 /* CommBankAssignmentSkeletonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommBankAssignmentSkeletonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8C4C3C2874350C0056D371 /* CommBankAssignmentSkeletonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommBankAssignmentSkeletonTests.swift; sourceTree = "<group>"; };
+		CD8C4C422874350C0056D371 /* CommBankAssignmentSkeletonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommBankAssignmentSkeletonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8C4C462874350C0056D371 /* CommBankAssignmentSkeletonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommBankAssignmentSkeletonUITests.swift; sourceTree = "<group>"; };
+		CD8C4C482874350C0056D371 /* CommBankAssignmentSkeletonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommBankAssignmentSkeletonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CD8C4C55287435600056D371 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CD8C4C57287435980056D371 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		CD8C4C59287435EB0056D371 /* Sample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Sample.json; sourceTree = "<group>"; };
+		CD8C4C5B28743D5D0056D371 /* AccountDetailsTableHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailsTableHeader.swift; sourceTree = "<group>"; };
+		CD8C4C5D2874408B0056D371 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		CD8C4C6028744C5E0056D371 /* iOS.Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iOS.Map.png; sourceTree = "<group>"; };
+		CD8C4C6128744C5E0056D371 /* iOS.Transactions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iOS.Transactions.png; sourceTree = "<group>"; };
+		CD8C4C6228744C5E0056D371 /* iOS.Transactions.scrolling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iOS.Transactions.scrolling.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD8C4C1F2874350A0056D371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8C4C352874350C0056D371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8C4C3F2874350C0056D371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1909F8C62B6B9D2F00CDC612 /* HelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				CD8C4C55287435600056D371 /* Constants.swift */,
+				CD8C4C5D2874408B0056D371 /* Fonts.swift */,
+				19DEB02A2B6A5E6200404209 /* Extensions.swift */,
+				1909F8CE2B6BA6D500CDC612 /* AccessibilityIdentifiers.swift */,
+			);
+			path = HelperClasses;
+			sourceTree = "<group>";
+		};
+		1909F8C72B6B9D4F00CDC612 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CD8C4C292874350A0056D371 /* CBATransactionController.swift */,
+				1909F8C42B6B9D1200CDC612 /* MapViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1909F8C82B6B9D5F00CDC612 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD8C4C5B28743D5D0056D371 /* AccountDetailsTableHeader.swift */,
+				19DEB0322B6A953800404209 /* TransactionViewCell.swift */,
+				19DEB0342B6AB4F600404209 /* DateDetailsHeader.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1909F8C92B6B9D7C00CDC612 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CD8C4C302874350C0056D371 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		19DEB0262B6A4AB700404209 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD8C4C57287435980056D371 /* Account.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		19DEB0272B6A4ABF00404209 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				19DEB02F2B6A643200404209 /* AccountDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		19DEB02C2B6A634C00404209 /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				19DEB02D2B6A636100404209 /* NetworkLayer.swift */,
+			);
+			path = ServiceLayer;
+			sourceTree = "<group>";
+		};
+		19DEB0312B6A951000404209 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1909F8C92B6B9D7C00CDC612 /* Storyboards */,
+				1909F8C72B6B9D4F00CDC612 /* ViewControllers */,
+				1909F8C82B6B9D5F00CDC612 /* Views */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD8C4C192874350A0056D371 = {
+			isa = PBXGroup;
+			children = (
+				CD8C4C242874350A0056D371 /* CommBankAssignmentSkeleton */,
+				CD8C4C3B2874350C0056D371 /* CommBankAssignmentSkeletonTests */,
+				CD8C4C452874350C0056D371 /* CommBankAssignmentSkeletonUITests */,
+				CD8C4C232874350A0056D371 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD8C4C232874350A0056D371 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD8C4C222874350A0056D371 /* CommBankAssignmentSkeleton.app */,
+				CD8C4C382874350C0056D371 /* CommBankAssignmentSkeletonTests.xctest */,
+				CD8C4C422874350C0056D371 /* CommBankAssignmentSkeletonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD8C4C242874350A0056D371 /* CommBankAssignmentSkeleton */ = {
+			isa = PBXGroup;
+			children = (
+				1909F8C62B6B9D2F00CDC612 /* HelperClasses */,
+				19DEB02C2B6A634C00404209 /* ServiceLayer */,
+				19DEB0262B6A4AB700404209 /* Model */,
+				19DEB0312B6A951000404209 /* View */,
+				19DEB0272B6A4ABF00404209 /* ViewModel */,
+				CD8C4C5F28744C420056D371 /* Screens */,
+				CD8C4C252874350A0056D371 /* AppDelegate.swift */,
+				CD8C4C272874350A0056D371 /* SceneDelegate.swift */,
+				CD8C4C59287435EB0056D371 /* Sample.json */,
+				CD8C4C2E2874350C0056D371 /* Assets.xcassets */,
+				CD8C4C332874350C0056D371 /* Info.plist */,
+			);
+			path = CommBankAssignmentSkeleton;
+			sourceTree = "<group>";
+		};
+		CD8C4C3B2874350C0056D371 /* CommBankAssignmentSkeletonTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD8C4C3C2874350C0056D371 /* CommBankAssignmentSkeletonTests.swift */,
+				1909F8CA2B6B9DCB00CDC612 /* AccountDetailsViewModelTests.swift */,
+				197F89D92B6BF6BD00ACD3B1 /* MockJson.json */,
+			);
+			path = CommBankAssignmentSkeletonTests;
+			sourceTree = "<group>";
+		};
+		CD8C4C452874350C0056D371 /* CommBankAssignmentSkeletonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD8C4C462874350C0056D371 /* CommBankAssignmentSkeletonUITests.swift */,
+				CD8C4C482874350C0056D371 /* CommBankAssignmentSkeletonUITestsLaunchTests.swift */,
+				1909F8D02B6BA76400CDC612 /* DateDetailsHeaderUITests.swift */,
+				197F89DA2B6BF80300ACD3B1 /* CBATransactionsControllerUITests.swift */,
+				197F89DC2B6BFED200ACD3B1 /* TransactionViewCellUITests.swift */,
+			);
+			path = CommBankAssignmentSkeletonUITests;
+			sourceTree = "<group>";
+		};
+		CD8C4C5F28744C420056D371 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				CD8C4C6028744C5E0056D371 /* iOS.Map.png */,
+				CD8C4C6128744C5E0056D371 /* iOS.Transactions.png */,
+				CD8C4C6228744C5E0056D371 /* iOS.Transactions.scrolling.png */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD8C4C212874350A0056D371 /* CommBankAssignmentSkeleton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD8C4C4C2874350C0056D371 /* Build configuration list for PBXNativeTarget "CommBankAssignmentSkeleton" */;
+			buildPhases = (
+				CD8C4C1E2874350A0056D371 /* Sources */,
+				CD8C4C1F2874350A0056D371 /* Frameworks */,
+				CD8C4C202874350A0056D371 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommBankAssignmentSkeleton;
+			productName = CommBankAssignmentSkeleton;
+			productReference = CD8C4C222874350A0056D371 /* CommBankAssignmentSkeleton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD8C4C372874350C0056D371 /* CommBankAssignmentSkeletonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD8C4C4F2874350C0056D371 /* Build configuration list for PBXNativeTarget "CommBankAssignmentSkeletonTests" */;
+			buildPhases = (
+				CD8C4C342874350C0056D371 /* Sources */,
+				CD8C4C352874350C0056D371 /* Frameworks */,
+				CD8C4C362874350C0056D371 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD8C4C3A2874350C0056D371 /* PBXTargetDependency */,
+			);
+			name = CommBankAssignmentSkeletonTests;
+			productName = CommBankAssignmentSkeletonTests;
+			productReference = CD8C4C382874350C0056D371 /* CommBankAssignmentSkeletonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD8C4C412874350C0056D371 /* CommBankAssignmentSkeletonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD8C4C522874350C0056D371 /* Build configuration list for PBXNativeTarget "CommBankAssignmentSkeletonUITests" */;
+			buildPhases = (
+				CD8C4C3E2874350C0056D371 /* Sources */,
+				CD8C4C3F2874350C0056D371 /* Frameworks */,
+				CD8C4C402874350C0056D371 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD8C4C442874350C0056D371 /* PBXTargetDependency */,
+			);
+			name = CommBankAssignmentSkeletonUITests;
+			productName = CommBankAssignmentSkeletonUITests;
+			productReference = CD8C4C422874350C0056D371 /* CommBankAssignmentSkeletonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD8C4C1A2874350A0056D371 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					CD8C4C212874350A0056D371 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					CD8C4C372874350C0056D371 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CD8C4C212874350A0056D371;
+					};
+					CD8C4C412874350C0056D371 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CD8C4C212874350A0056D371;
+					};
+				};
+			};
+			buildConfigurationList = CD8C4C1D2874350A0056D371 /* Build configuration list for PBXProject "CommBankAssignmentSkeleton" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD8C4C192874350A0056D371;
+			productRefGroup = CD8C4C232874350A0056D371 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD8C4C212874350A0056D371 /* CommBankAssignmentSkeleton */,
+				CD8C4C372874350C0056D371 /* CommBankAssignmentSkeletonTests */,
+				CD8C4C412874350C0056D371 /* CommBankAssignmentSkeletonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD8C4C202874350A0056D371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8C4C6528744C5E0056D371 /* iOS.Transactions.scrolling.png in Resources */,
+				CD8C4C6428744C5E0056D371 /* iOS.Transactions.png in Resources */,
+				CD8C4C322874350C0056D371 /* LaunchScreen.storyboard in Resources */,
+				CD8C4C6328744C5E0056D371 /* iOS.Map.png in Resources */,
+				CD8C4C2F2874350C0056D371 /* Assets.xcassets in Resources */,
+				CD8C4C5A287435EB0056D371 /* Sample.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8C4C362874350C0056D371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8C4C402874350C0056D371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD8C4C1E2874350A0056D371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19DEB02E2B6A636100404209 /* NetworkLayer.swift in Sources */,
+				CD8C4C5E2874408B0056D371 /* Fonts.swift in Sources */,
+				19DEB02B2B6A5E6200404209 /* Extensions.swift in Sources */,
+				19DEB0352B6AB4F600404209 /* DateDetailsHeader.swift in Sources */,
+				CD8C4C58287435980056D371 /* Account.swift in Sources */,
+				CD8C4C5C28743D5D0056D371 /* AccountDetailsTableHeader.swift in Sources */,
+				1909F8C52B6B9D1200CDC612 /* MapViewController.swift in Sources */,
+				19DEB0302B6A643200404209 /* AccountDetailsViewModel.swift in Sources */,
+				CD8C4C2A2874350A0056D371 /* CBATransactionController.swift in Sources */,
+				CD8C4C262874350A0056D371 /* AppDelegate.swift in Sources */,
+				CD8C4C282874350A0056D371 /* SceneDelegate.swift in Sources */,
+				1909F8CF2B6BA6D500CDC612 /* AccessibilityIdentifiers.swift in Sources */,
+				CD8C4C56287435600056D371 /* Constants.swift in Sources */,
+				19DEB0332B6A953800404209 /* TransactionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8C4C342874350C0056D371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				197F89E62B6C170600ACD3B1 /* NetworkLayer.swift in Sources */,
+				197F89E22B6C170100ACD3B1 /* Extensions.swift in Sources */,
+				197F89E02B6C16FE00ACD3B1 /* Fonts.swift in Sources */,
+				197F89F42B6C171D00ACD3B1 /* AccountDetailsViewModel.swift in Sources */,
+				197F89F12B6C171600ACD3B1 /* DateDetailsHeader.swift in Sources */,
+				197F89ED2B6C171000ACD3B1 /* MapViewController.swift in Sources */,
+				CD8C4C3D2874350C0056D371 /* CommBankAssignmentSkeletonTests.swift in Sources */,
+				197F89E42B6C170300ACD3B1 /* AccessibilityIdentifiers.swift in Sources */,
+				197F89E82B6C170800ACD3B1 /* Account.swift in Sources */,
+				197F89F22B6C171900ACD3B1 /* TransactionViewCell.swift in Sources */,
+				1909F8CB2B6B9DCB00CDC612 /* AccountDetailsViewModelTests.swift in Sources */,
+				197F89EA2B6C170D00ACD3B1 /* CBATransactionController.swift in Sources */,
+				197F89EE2B6C171400ACD3B1 /* AccountDetailsTableHeader.swift in Sources */,
+				197F89DE2B6C16FC00ACD3B1 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8C4C3E2874350C0056D371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				197F89E52B6C170400ACD3B1 /* AccessibilityIdentifiers.swift in Sources */,
+				197F89EB2B6C170D00ACD3B1 /* CBATransactionController.swift in Sources */,
+				197F89E92B6C170800ACD3B1 /* Account.swift in Sources */,
+				197F89E12B6C16FF00ACD3B1 /* Fonts.swift in Sources */,
+				CD8C4C492874350C0056D371 /* CommBankAssignmentSkeletonUITestsLaunchTests.swift in Sources */,
+				197F89F32B6C171900ACD3B1 /* TransactionViewCell.swift in Sources */,
+				197F89DB2B6BF80300ACD3B1 /* CBATransactionsControllerUITests.swift in Sources */,
+				197F89F52B6C171D00ACD3B1 /* AccountDetailsViewModel.swift in Sources */,
+				197F89EC2B6C170F00ACD3B1 /* MapViewController.swift in Sources */,
+				197F89E32B6C170100ACD3B1 /* Extensions.swift in Sources */,
+				197F89EF2B6C171400ACD3B1 /* AccountDetailsTableHeader.swift in Sources */,
+				CD8C4C472874350C0056D371 /* CommBankAssignmentSkeletonUITests.swift in Sources */,
+				197F89DD2B6BFED200ACD3B1 /* TransactionViewCellUITests.swift in Sources */,
+				1909F8D12B6BA76400CDC612 /* DateDetailsHeaderUITests.swift in Sources */,
+				197F89F02B6C171600ACD3B1 /* DateDetailsHeader.swift in Sources */,
+				197F89E72B6C170600ACD3B1 /* NetworkLayer.swift in Sources */,
+				197F89DF2B6C16FC00ACD3B1 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD8C4C3A2874350C0056D371 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD8C4C212874350A0056D371 /* CommBankAssignmentSkeleton */;
+			targetProxy = CD8C4C392874350C0056D371 /* PBXContainerItemProxy */;
+		};
+		CD8C4C442874350C0056D371 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD8C4C212874350A0056D371 /* CommBankAssignmentSkeleton */;
+			targetProxy = CD8C4C432874350C0056D371 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD8C4C302874350C0056D371 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD8C4C312874350C0056D371 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD8C4C4A2874350C0056D371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD8C4C4B2874350C0056D371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD8C4C4D2874350C0056D371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CommBankAssignmentSkeleton/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CBA.CommBankAssignmentSkeleton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD8C4C4E2874350C0056D371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CommBankAssignmentSkeleton/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CBA.CommBankAssignmentSkeleton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD8C4C502874350C0056D371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CBA.CommBankAssignmentSkeletonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CommBankAssignmentSkeleton.app/CommBankAssignmentSkeleton";
+			};
+			name = Debug;
+		};
+		CD8C4C512874350C0056D371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CBA.CommBankAssignmentSkeletonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CommBankAssignmentSkeleton.app/CommBankAssignmentSkeleton";
+				"TEST_HOST[sdk=iphonesimulator*]" = "$(BUILT_PRODUCTS_DIR)/CommBankAssignmentSkeleton.app/CommBankAssignmentSkeleton";
+			};
+			name = Release;
+		};
+		CD8C4C532874350C0056D371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CBA.CommBankAssignmentSkeletonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CommBankAssignmentSkeleton;
+			};
+			name = Debug;
+		};
+		CD8C4C542874350C0056D371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CBA.CommBankAssignmentSkeletonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CommBankAssignmentSkeleton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD8C4C1D2874350A0056D371 /* Build configuration list for PBXProject "CommBankAssignmentSkeleton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8C4C4A2874350C0056D371 /* Debug */,
+				CD8C4C4B2874350C0056D371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD8C4C4C2874350C0056D371 /* Build configuration list for PBXNativeTarget "CommBankAssignmentSkeleton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8C4C4D2874350C0056D371 /* Debug */,
+				CD8C4C4E2874350C0056D371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD8C4C4F2874350C0056D371 /* Build configuration list for PBXNativeTarget "CommBankAssignmentSkeletonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8C4C502874350C0056D371 /* Debug */,
+				CD8C4C512874350C0056D371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD8C4C522874350C0056D371 /* Build configuration list for PBXNativeTarget "CommBankAssignmentSkeletonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8C4C532874350C0056D371 /* Debug */,
+				CD8C4C542874350C0056D371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD8C4C1A2874350A0056D371 /* Project object */;
+}

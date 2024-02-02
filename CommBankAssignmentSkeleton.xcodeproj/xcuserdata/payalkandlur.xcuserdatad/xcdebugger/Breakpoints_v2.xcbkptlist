@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9A10C6ED-6A5B-4E23-95F2-53010361BA13"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F6AFF384-EF7B-466D-A48C-C8F493FB689F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CommBankAssignmentSkeleton/CBATransactionController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "dataFetchedSuccessfully(data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB1A486F-21A8-4B7E-817D-523201600354"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CommBankAssignmentSkeleton/ViewModel/AccountDetailsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "init(networkService:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3F39E432-FB38-4E55-AEEF-AD944DA7A7A5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CommBankAssignmentSkeleton/Model/Account.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "6"
+            endingLineNumber = "6"
+            landmarkName = "AccountDetail"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C38F24B0-62C5-4718-AF9A-3BF13CEB0787"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CommBankAssignmentSkeleton/Model/Account.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "Account"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E3DCAF2D-5ADE-479C-AED2-D97F7512FBC8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CommBankAssignmentSkeleton/View/TransactionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "configureDescriptionStackView()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E3DCAF2D-5ADE-479C-AED2-D97F7512FBC8 - 66b12fc7dcd8ea2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CommBankAssignmentSkeleton.TransactionViewCell.configureDescriptionStackView() -&gt; ()"
+                  moduleName = "CommBankAssignmentSkeleton"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/payalkandlur/Downloads/cba-assignment-skeleton-ios/CommBankAssignmentSkeleton/View/TransactionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "127"
+                  endingLineNumber = "127"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "E3DCAF2D-5ADE-479C-AED2-D97F7512FBC8 - 66b12fc7dcd8eec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CommBankAssignmentSkeleton.TransactionViewCell.configureDescriptionStackView() -&gt; ()"
+                  moduleName = "CommBankAssignmentSkeleton"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/payalkandlur/Downloads/cba-assignment-skeleton-ios/CommBankAssignmentSkeleton/View/TransactionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "125"
+                  endingLineNumber = "125"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "E3DCAF2D-5ADE-479C-AED2-D97F7512FBC8 - 66b12fc7dcd8ecd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CommBankAssignmentSkeleton.TransactionViewCell.configureDescriptionStackView() -&gt; ()"
+                  moduleName = "CommBankAssignmentSkeleton"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/payalkandlur/Downloads/cba-assignment-skeleton-ios/CommBankAssignmentSkeleton/View/TransactionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "124"
+                  endingLineNumber = "124"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "192F95F7-8550-4851-9433-DFD008719600"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CommBankAssignmentSkeleton/View/TransactionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "setupUI(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "192F95F7-8550-4851-9433-DFD008719600 - e7f285ffc343d26a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CommBankAssignmentSkeleton.TransactionViewCell.setupUI(CommBankAssignmentSkeleton.Transaction) -&gt; ()"
+                  moduleName = "CommBankAssignmentSkeleton"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/payalkandlur/Downloads/cba-assignment-skeleton-ios/CommBankAssignmentSkeleton/View/TransactionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "1260">
+               </Location>
+               <Location
+                  uuid = "192F95F7-8550-4851-9433-DFD008719600 - e7f285ffc343d26a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CommBankAssignmentSkeleton.TransactionViewCell.setupUI(CommBankAssignmentSkeleton.Transaction) -&gt; ()"
+                  moduleName = "CommBankAssignmentSkeleton"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/payalkandlur/Downloads/cba-assignment-skeleton-ios/CommBankAssignmentSkeleton/View/TransactionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "1256">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "282F9E44-FB54-42DB-8131-DB6857A2CDEF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CommBankAssignmentSkeleton/View/TransactionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "setupUI(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "282F9E44-FB54-42DB-8131-DB6857A2CDEF - e7f285ffc343d3c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CommBankAssignmentSkeleton.TransactionViewCell.setupUI(CommBankAssignmentSkeleton.Transaction) -&gt; ()"
+                  moduleName = "CommBankAssignmentSkeleton"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/payalkandlur/Downloads/cba-assignment-skeleton-ios/CommBankAssignmentSkeleton/View/TransactionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "1120">
+               </Location>
+               <Location
+                  uuid = "282F9E44-FB54-42DB-8131-DB6857A2CDEF - e7f285ffc343d3c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CommBankAssignmentSkeleton.TransactionViewCell.setupUI(CommBankAssignmentSkeleton.Transaction) -&gt; ()"
+                  moduleName = "CommBankAssignmentSkeleton"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/payalkandlur/Downloads/cba-assignment-skeleton-ios/CommBankAssignmentSkeleton/View/TransactionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "1096">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "99688F85-417E-44D8-9498-37E791C28CB3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CommBankAssignmentSkeleton/View/CBATransactionController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "14B1DA72-E051-4C18-8D53-A2374372A3B4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CommBankAssignmentSkeleton/ViewModel/AccountDetailsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "fetchData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B41E54B0-29B7-4266-A407-57647221FD9C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CommBankAssignmentSkeleton/ViewModel/AccountDetailsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "getTransactions()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2C48D35B-87D6-4642-A65F-51D959EACAB3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CommBankAssignmentSkeletonTests/AccountDetailsViewModelTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "testGetTransactionsNil()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2C48D35B-87D6-4642-A65F-51D959EACAB3 - 2f75e9084d76e9f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CommBankAssignmentSkeletonTests.AccountDetailsViewModelTests.testGetTransactionsNil() -&gt; ()"
+                  moduleName = "CommBankAssignmentSkeletonTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/payalkandlur/Downloads/cba-assignment-skeleton-ios/CommBankAssignmentSkeletonTests/AccountDetailsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "508">
+               </Location>
+               <Location
+                  uuid = "2C48D35B-87D6-4642-A65F-51D959EACAB3 - 2f75e9084d76e9df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CommBankAssignmentSkeletonTests.AccountDetailsViewModelTests.testGetTransactionsNil() -&gt; ()"
+                  moduleName = "CommBankAssignmentSkeletonTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/payalkandlur/Downloads/cba-assignment-skeleton-ios/CommBankAssignmentSkeletonTests/AccountDetailsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "1012">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "64F3AE65-2A17-47FC-84E1-31F3101678FA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CommBankAssignmentSkeleton/ViewModel/AccountDetailsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "getTransactions()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A4A757AF-D9C2-4810-B729-3C4A8FF1027C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CommBankAssignmentSkeleton/ViewModel/AccountDetailsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "fetchData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2FADB244-D80C-4184-B24D-881847B69A5C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CommBankAssignmentSkeleton/View/ViewControllers/CBATransactionController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "showMapView(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2FADB244-D80C-4184-B24D-881847B69A5C - 942f09fee516551f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in CommBankAssignmentSkeleton.CBATransactionController.showMapView(Swift.String) -&gt; ()"
+                  moduleName = "CommBankAssignmentSkeleton"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/payalkandlur/Downloads/cba-assignment-skeleton-ios/CommBankAssignmentSkeleton/View/ViewControllers/CBATransactionController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "2FADB244-D80C-4184-B24D-881847B69A5C - c5f8a95420b8347d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in CommBankAssignmentSkeletonTests.CBATransactionController.showMapView(Swift.String) -&gt; ()"
+                  moduleName = "CommBankAssignmentSkeletonTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/payalkandlur/Downloads/cba-assignment-skeleton-ios/CommBankAssignmentSkeleton/View/ViewControllers/CBATransactionController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "2FADB244-D80C-4184-B24D-881847B69A5C - 929d33730f0e941d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in CommBankAssignmentSkeletonUITests.CBATransactionController.showMapView(Swift.String) -&gt; ()"
+                  moduleName = "CommBankAssignmentSkeletonUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/payalkandlur/Downloads/cba-assignment-skeleton-ios/CommBankAssignmentSkeleton/View/ViewControllers/CBATransactionController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "160">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B4F4149-0FCA-4B1F-99DD-EEF05866B85E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CommBankAssignmentSkeleton/View/ViewControllers/CBATransactionController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "CBATransactionController"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "91325137-7E8D-4373-91FD-84E806C5D098"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CommBankAssignmentSkeleton/View/ViewControllers/CBATransactionController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "tableView(_:viewForHeaderInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "251F0987-4A11-4139-8442-18E1CD3D0D8C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CommBankAssignmentSkeleton/ViewModel/AccountDetailsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "groupTransactionsWithEffectiveDate()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "251F0987-4A11-4139-8442-18E1CD3D0D8C - 98e9a537e86955e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (CommBankAssignmentSkeleton.Transaction) -&gt; () in CommBankAssignmentSkeleton.AccountDetailsViewModel.groupTransactionsWithEffectiveDate() -&gt; ()"
+                  moduleName = "CommBankAssignmentSkeleton"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/payalkandlur/Downloads/cba-assignment-skeleton-ios/CommBankAssignmentSkeleton/ViewModel/AccountDetailsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "1292">
+               </Location>
+               <Location
+                  uuid = "251F0987-4A11-4139-8442-18E1CD3D0D8C - ba174968b5495527"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CommBankAssignmentSkeleton.AccountDetailsViewModel.groupTransactionsWithEffectiveDate() -&gt; ()"
+                  moduleName = "CommBankAssignmentSkeleton"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/payalkandlur/Downloads/cba-assignment-skeleton-ios/CommBankAssignmentSkeleton/ViewModel/AccountDetailsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "800">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3F606CD5-82E7-4C12-A1F2-B62FBFF208C6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CommBankAssignmentSkeletonUITests/TransactionViewCellUITests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "testTransactionCellUI()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3F606CD5-82E7-4C12-A1F2-B62FBFF208C6 - 185f3601a17bc2c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CommBankAssignmentSkeletonUITests.TransactionViewCellUITests.testTransactionCellUI() throws -&gt; ()"
+                  moduleName = "CommBankAssignmentSkeletonUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/payalkandlur/Downloads/cba-assignment-skeleton-ios/CommBankAssignmentSkeletonUITests/TransactionViewCellUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "692">
+               </Location>
+               <Location
+                  uuid = "3F606CD5-82E7-4C12-A1F2-B62FBFF208C6 - 185f3601a17bc2c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CommBankAssignmentSkeletonUITests.TransactionViewCellUITests.testTransactionCellUI() throws -&gt; ()"
+                  moduleName = "CommBankAssignmentSkeletonUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/payalkandlur/Downloads/cba-assignment-skeleton-ios/CommBankAssignmentSkeletonUITests/TransactionViewCellUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "640">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
